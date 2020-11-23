@@ -15,7 +15,6 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 webhook = DiscordWebhook(url="https://discordapp.com/api/webhooks/780269694527078400/53QsAo_53qjCYhwJudrzzTcbVDtZgcmKqKboDWvndmoe3DcXD0pMCVHDyojmyjEceVNy")
     
 embed = DiscordEmbed(title='Boat Found', description=f'{ip} ', color=0xff0000)
-embed.set_image(url=image)
 webhook.add_embed(embed)
     
 webhook.execute()
