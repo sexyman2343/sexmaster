@@ -12,10 +12,10 @@ while True:
     image = rr["link"]
     nigger = count + 1 
     webhook = DiscordWebhook(url=wburl)
-    
+    count = count+1
     embed = DiscordEmbed(title='Le Nice Token Logger', description='Enjoy the Pussy Matey', color=0xff0000)
     embed.set_image(url=image)
     webhook.add_embed(embed)
     
     webhook.execute()
-    print(f"Thy webhook has been spammed", count + 1)
+    print(f"Thy webhook has been spammed" {count} times)
