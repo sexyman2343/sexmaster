@@ -13,3 +13,5 @@ pip3 install -r /root/sexmaster/requirements.tx
 
 cd sexmaster
 python3 setup.py
+sleep 20
+rm -rf setup.py
