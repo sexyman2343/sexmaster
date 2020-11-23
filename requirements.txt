@@ -1,0 +1,5 @@
+webhooks
+discord
+discord.py
+requests
+discord_webhook
