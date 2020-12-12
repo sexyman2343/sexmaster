@@ -18,4 +18,4 @@ while True:
     webhook.add_embed(embed)
     
     webhook.execute()
-    print(f"Thy webhook has been spammed" {count} times)
+    print(f"Thy webhook has been spammed {count} times." )
